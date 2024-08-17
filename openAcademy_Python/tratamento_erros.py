@@ -14,7 +14,7 @@ except FileNotFoundError:
 """finally:
     arquivo.close()"""                         #Fecha o arquivo aberto, independente se dado o erro ou não
 
-def funcao():
+"""def funcao():
     if condicao:
         raise Exception ("Descrição do Erro")       #Tratamento de erros personalizado
 
@@ -22,4 +22,4 @@ try:
     funcao()
 except Exception as e:
     print (f"Tem algo errado: {str(e)}")                #Imprimirá o erro personalizado junto do 
-                                                        # erro da linguagem python: "Tem algo errado: name 'condicao' is not defined"
+                                              """          # erro da linguagem python: "Tem algo errado: name 'condicao' is not defined"
